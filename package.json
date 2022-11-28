@@ -1,0 +1,25 @@
+{
+  "name": "first_code_challenge",
+  "version": "1.0.0",
+  "description": "grade generator",
+  "main": "gradeGenerator.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sundusyerron/First_Code_Challane.git"
+  },
+  "keywords": [
+    "\"grade\"",
+    "\"speed\"",
+    "and",
+    "\"salary\""
+  ],
+  "author": "sundus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sundusyerron/First_Code_Challane/issues"
+  },
+  "homepage": "https://github.com/sundusyerron/First_Code_Challane#readme"
+}
