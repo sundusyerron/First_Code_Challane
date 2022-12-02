@@ -1,4 +1,3 @@
-
 //Challenge 2: Speed Detector (Toy Problem)
 //here we calculate speed of a car 
 //lets speed of a car is 80;
