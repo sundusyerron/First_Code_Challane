@@ -1,5 +1,6 @@
 // Net Salary Calculator (Toy Problem)
 //we input prompt basic salary and its benefits
+const prompt = require('prompt-sync')();
 let basicSalary = prompt("Input basic salary earned");
 let benefits = prompt("Input benefits");
 
