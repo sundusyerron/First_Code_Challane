@@ -1,22 +1,31 @@
-function studentGradeGenerator(myInput) {
-    // we can use an if statement here
-      // test with 100
-    if (myInput >= 79 && myInput <= 100) {
-      console.log("A");
-      // test with 79 
-    } else if (myInput >= 60 && myInput <= 78) {
-      console.log("B");
-     // test with 49
-    } else if (myInput >= 49 && myInput < 59){
-      console.log("C")
-    } else if(myInput >= 40 && myInput <= 48){
-      console.log("D")
-    } else if (myInput < 39 >= 0){
-      console.log("E")
-    
+const prompt = require('prompt-sync')();
+  // gets grade as inputs
+  let grade = prompt("Please enter your grade");
+  if (grade >= 1 && grade <=100) {
+    switch (true) {
+	// If score is 79 or greater
+	case grade >= 79:
+    console.log ("Your grade is A");
+		break;
+	// If score is 60 or greater
+	case grade >= 60:
+    console.log ("Your grade is B");
+		break;
+	// If score is 49 or greater
+	case grade >= 49:
+    console.log ("Your grade is C");
+		break;
+	// If score is 40 or greater
+	case grade >= 40:
+    console.log ("Your grade is D");
+		break;
+	// Anything 40 or below is failing
+	default:
+    console.log("Your grade is E");
+}
+  } else {
+    console.log("Please input correct grade");
   }
-          
-  // calling our funciton 
-  studentGradeGenerator(80);
+
+
   
-  // A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
