@@ -81,7 +81,7 @@ To run the test, run the code:
 node speedGenerator.js
 
 
-Contact Informantion
+Contact Informantion:
 
 Incase of any enquiries or contributions, u can  email me at sundus.yerron@student.moringaschool.com
 
