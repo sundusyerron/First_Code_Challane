@@ -40,6 +40,10 @@ npm install
 
 npm install prompt-sync
 
+to run the test use this command,'node space file name'.
+
+node:
+
 # challange 1: gradeGenerotor.js
 
 # Description
@@ -63,10 +67,6 @@ The second challenge it takes input the speed of a car e.g 80. if speed of a car
 To run the test, run the code:
 
 node speedGenerator.js
-
-
-
-
 
 ## challenge numner 3:netsalary.js
 
